@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dl{
+    display: grid;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    grid-template-columns: 250px 160px 80px;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.dli{
+    display: grid;
+    padding-left: 5px;
+    padding-right: 5px;
+    grid-template-columns: 250px 160px 80px 100px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.dls{
+    font-size: larger;
+}
+.p1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addb{
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid black;
+    color: antiquewhite;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inpt{
+    font-size: large;
+    padding: 5px;
+    border: solid 2px;
+    cursor: pointer;
+}
+.inpdt{
+    font-size: large;
+    padding: 5px;
+    border: solid 2px;
+    cursor: pointer;
+}
+.delb{
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid black;
+    color: antiquewhite;
+    background-color: rgb(194, 2, 2);
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edelb{
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid black;
+    color: antiquewhite;
+    background-color: rgb(194, 2, 2);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

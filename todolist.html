@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do List</title>
+        <link rel="stylesheet" href="styles/todolist.css">
+    </head>
+    <body>
+        <p class="p1">To do List</p>
+        <div class="dli">
+        <input class="inpt js-inpt" type="text" placeholder="What to do" onkeydown="if(event.key==='Enter'){addtodo();}">
+        <input type="date" class="inpdt js-inpdt" >
+        <button class="addb" onclick="addtodo();">ADD</button>
+        <button class="delb" onclick="delall();">DEL ALL</button></div>
+        <div class="js-diplaylist dl"></div>
+        <script src="scripts/todolist.js"></script>
+    </body>
+</html>
